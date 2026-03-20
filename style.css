@@ -1,0 +1,50 @@
+body {
+  font-family: Arial;
+  background: #f5f7fb;
+  margin: 0;
+}
+
+/* CENTER */
+.container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+/* CARD */
+.card {
+  background: white;
+  padding: 25px;
+  width: 300px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* INPUT */
+input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+/* BUTTON */
+button {
+  padding: 10px 20px;
+  background: #2b4eff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1f38c5;
+}
+
+/* LOGOUT */
+.logout {
+  display: inline-block;
+  margin-top: 20px;
+  color: #2b4eff;
+  text-decoration: none;
+}
